@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD5B13724BD582F00B44CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13624BD582F00B44CDF /* AppDelegate.swift */; };
+		2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */; };
+		2FD5B13B24BD582F00B44CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13A24BD582F00B44CDF /* ContentView.swift */; };
+		2FD5B13D24BD583000B44CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5B13C24BD583000B44CDF /* Assets.xcassets */; };
+		2FD5B14024BD583000B44CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5B13F24BD583000B44CDF /* Preview Assets.xcassets */; };
+		2FD5B14324BD583000B44CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5B14124BD583000B44CDF /* LaunchScreen.storyboard */; };
+		2FD5B14E24BD583000B44CDF /* Bad_CusterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B14D24BD583000B44CDF /* Bad_CusterTests.swift */; };
+		2FD5B15924BD583000B44CDF /* Bad_CusterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B15824BD583000B44CDF /* Bad_CusterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD5B14A24BD583000B44CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD5B12B24BD582F00B44CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD5B13224BD582F00B44CDF;
+			remoteInfo = "Bad Custer";
+		};
+		2FD5B15524BD583000B44CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD5B12B24BD582F00B44CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD5B13224BD582F00B44CDF;
+			remoteInfo = "Bad Custer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD5B13324BD582F00B44CDF /* Bad Custer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Custer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD5B13624BD582F00B44CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FD5B13A24BD582F00B44CDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FD5B13C24BD583000B44CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD5B13F24BD583000B44CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FD5B14224BD583000B44CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD5B14424BD583000B44CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD5B14924BD583000B44CDF /* Bad CusterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad CusterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD5B14D24BD583000B44CDF /* Bad_CusterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_CusterTests.swift; sourceTree = "<group>"; };
+		2FD5B14F24BD583000B44CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD5B15424BD583000B44CDF /* Bad CusterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad CusterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD5B15824BD583000B44CDF /* Bad_CusterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_CusterUITests.swift; sourceTree = "<group>"; };
+		2FD5B15A24BD583000B44CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD5B13024BD582F00B44CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B14624BD583000B44CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B15124BD583000B44CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD5B12A24BD582F00B44CDF = {
+			isa = PBXGroup;
+			children = (
+				2FD5B13524BD582F00B44CDF /* Bad Custer */,
+				2FD5B14C24BD583000B44CDF /* Bad CusterTests */,
+				2FD5B15724BD583000B44CDF /* Bad CusterUITests */,
+				2FD5B13424BD582F00B44CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD5B13424BD582F00B44CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B13324BD582F00B44CDF /* Bad Custer.app */,
+				2FD5B14924BD583000B44CDF /* Bad CusterTests.xctest */,
+				2FD5B15424BD583000B44CDF /* Bad CusterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD5B13524BD582F00B44CDF /* Bad Custer */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B13624BD582F00B44CDF /* AppDelegate.swift */,
+				2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */,
+				2FD5B13A24BD582F00B44CDF /* ContentView.swift */,
+				2FD5B13C24BD583000B44CDF /* Assets.xcassets */,
+				2FD5B14124BD583000B44CDF /* LaunchScreen.storyboard */,
+				2FD5B14424BD583000B44CDF /* Info.plist */,
+				2FD5B13E24BD583000B44CDF /* Preview Content */,
+			);
+			path = "Bad Custer";
+			sourceTree = "<group>";
+		};
+		2FD5B13E24BD583000B44CDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B13F24BD583000B44CDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FD5B14C24BD583000B44CDF /* Bad CusterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B14D24BD583000B44CDF /* Bad_CusterTests.swift */,
+				2FD5B14F24BD583000B44CDF /* Info.plist */,
+			);
+			path = "Bad CusterTests";
+			sourceTree = "<group>";
+		};
+		2FD5B15724BD583000B44CDF /* Bad CusterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B15824BD583000B44CDF /* Bad_CusterUITests.swift */,
+				2FD5B15A24BD583000B44CDF /* Info.plist */,
+			);
+			path = "Bad CusterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD5B13224BD582F00B44CDF /* Bad Custer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD5B15D24BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad Custer" */;
+			buildPhases = (
+				2FD5B12F24BD582F00B44CDF /* Sources */,
+				2FD5B13024BD582F00B44CDF /* Frameworks */,
+				2FD5B13124BD582F00B44CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bad Custer";
+			productName = "Bad Custer";
+			productReference = 2FD5B13324BD582F00B44CDF /* Bad Custer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD5B14824BD583000B44CDF /* Bad CusterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD5B16024BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad CusterTests" */;
+			buildPhases = (
+				2FD5B14524BD583000B44CDF /* Sources */,
+				2FD5B14624BD583000B44CDF /* Frameworks */,
+				2FD5B14724BD583000B44CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD5B14B24BD583000B44CDF /* PBXTargetDependency */,
+			);
+			name = "Bad CusterTests";
+			productName = "Bad CusterTests";
+			productReference = 2FD5B14924BD583000B44CDF /* Bad CusterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FD5B15324BD583000B44CDF /* Bad CusterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD5B16324BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad CusterUITests" */;
+			buildPhases = (
+				2FD5B15024BD583000B44CDF /* Sources */,
+				2FD5B15124BD583000B44CDF /* Frameworks */,
+				2FD5B15224BD583000B44CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD5B15624BD583000B44CDF /* PBXTargetDependency */,
+			);
+			name = "Bad CusterUITests";
+			productName = "Bad CusterUITests";
+			productReference = 2FD5B15424BD583000B44CDF /* Bad CusterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD5B12B24BD582F00B44CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Phil Giammattei";
+				TargetAttributes = {
+					2FD5B13224BD582F00B44CDF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2FD5B14824BD583000B44CDF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2FD5B13224BD582F00B44CDF;
+					};
+					2FD5B15324BD583000B44CDF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2FD5B13224BD582F00B44CDF;
+					};
+				};
+			};
+			buildConfigurationList = 2FD5B12E24BD582F00B44CDF /* Build configuration list for PBXProject "Bad Custer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD5B12A24BD582F00B44CDF;
+			productRefGroup = 2FD5B13424BD582F00B44CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD5B13224BD582F00B44CDF /* Bad Custer */,
+				2FD5B14824BD583000B44CDF /* Bad CusterTests */,
+				2FD5B15324BD583000B44CDF /* Bad CusterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD5B13124BD582F00B44CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD5B14324BD583000B44CDF /* LaunchScreen.storyboard in Resources */,
+				2FD5B14024BD583000B44CDF /* Preview Assets.xcassets in Resources */,
+				2FD5B13D24BD583000B44CDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B14724BD583000B44CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B15224BD583000B44CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD5B12F24BD582F00B44CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD5B13724BD582F00B44CDF /* AppDelegate.swift in Sources */,
+				2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */,
+				2FD5B13B24BD582F00B44CDF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B14524BD583000B44CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD5B14E24BD583000B44CDF /* Bad_CusterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD5B15024BD583000B44CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD5B15924BD583000B44CDF /* Bad_CusterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD5B14B24BD583000B44CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD5B13224BD582F00B44CDF /* Bad Custer */;
+			targetProxy = 2FD5B14A24BD583000B44CDF /* PBXContainerItemProxy */;
+		};
+		2FD5B15624BD583000B44CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD5B13224BD582F00B44CDF /* Bad Custer */;
+			targetProxy = 2FD5B15524BD583000B44CDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD5B14124BD583000B44CDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD5B14224BD583000B44CDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD5B15B24BD583000B44CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD5B15C24BD583000B44CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD5B15E24BD583000B44CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bad Custer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bad Custer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-Custer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD5B15F24BD583000B44CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bad Custer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bad Custer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-Custer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FD5B16124BD583000B44CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bad CusterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-CusterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bad Custer.app/Bad Custer";
+			};
+			name = Debug;
+		};
+		2FD5B16224BD583000B44CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bad CusterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-CusterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bad Custer.app/Bad Custer";
+			};
+			name = Release;
+		};
+		2FD5B16424BD583000B44CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bad CusterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-CusterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bad Custer";
+			};
+			name = Debug;
+		};
+		2FD5B16524BD583000B44CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bad CusterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.giammattei.Bad-CusterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bad Custer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD5B12E24BD582F00B44CDF /* Build configuration list for PBXProject "Bad Custer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD5B15B24BD583000B44CDF /* Debug */,
+				2FD5B15C24BD583000B44CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD5B15D24BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad Custer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD5B15E24BD583000B44CDF /* Debug */,
+				2FD5B15F24BD583000B44CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD5B16024BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad CusterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD5B16124BD583000B44CDF /* Debug */,
+				2FD5B16224BD583000B44CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD5B16324BD583000B44CDF /* Build configuration list for PBXNativeTarget "Bad CusterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD5B16424BD583000B44CDF /* Debug */,
+				2FD5B16524BD583000B44CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD5B12B24BD582F00B44CDF /* Project object */;
+}
