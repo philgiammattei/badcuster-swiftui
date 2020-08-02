@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Needs Work",
+        "cover":"needs-work",
+        "release": "2020"
+    },
+    {
+        "id": 2,
+        "name":"Bad Custer",
+        "cover":"bad-custer",
+        "release": "2018"
+    },
+    {
+        "id": 3,
+        "name":"LoveCraft",
+        "cover":"lovecraft",
+        "release": "2018"
+    },
+    {
+        "id": 4,
+        "name":"Radiation",
+        "cover":"radiation",
+        "release": "2018"
+    }
+    
+]

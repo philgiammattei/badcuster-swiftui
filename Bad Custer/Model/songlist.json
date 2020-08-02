@@ -1,0 +1,123 @@
+[
+    {
+        "track": 1,
+        "title": "Falalala",
+        "album": "Needs Work",
+        "src": "01-Falalala"
+    },
+    {
+        "track": 2,
+        "title": "Tiny Man",
+        "album": "Needs Work",
+        "src": "02-Tiny_Man"
+    },
+    {
+        "track": 3,
+        "title": "Lies of the Few",
+        "album": "Needs Work",
+        "src": "03-Lies_of_the_Few"
+    },
+    {
+        "track": 4,
+        "title": "I Still Love You",
+        "album": "Needs Work",
+        "src": "04-I_Still_Love_You"
+    },
+    {
+        "track": 5,
+        "title": "Outlaw",
+        "album": "Needs Work",
+        "src": "05-Outlaw"
+    },
+    {
+        "track": 6,
+        "title": "John Woo",
+        "album": "Needs Work",
+        "src": "06-John_Woo"
+    },
+    {
+        "track": 7,
+        "title": "Outside of Texas",
+        "album": "Needs Work",
+        "src": "07-Outside_of_Texas"
+    },
+    {
+        "track": 8,
+        "title": "No One Knows",
+        "album": "Needs Work",
+        "src": "08-No_One_Knows"
+    },
+    {
+        "track": 9,
+        "title": "The Ballad of Jesus Christ",
+        "album": "Needs Work",
+        "src": "09-The_Ballad_of_Jesus_Christ"
+    },
+    {
+        "track": 1,
+        "title": "We Don't Play Rock 'N' Roll",
+        "album": "Bad Custer",
+        "src": "01-We_Dont_Play_Rock_N_Roll"
+    },
+    {
+        "track": 2,
+        "title": "I'm Doing Good",
+        "album": "Bad Custer",
+        "src": "02-Im_Doing_Good"
+    },
+    {
+        "track": 3,
+        "title": "Bones Like Lightning",
+        "album": "Bad Custer",
+        "src": "03-Bones_Like_Lightning"
+    },
+    {
+        "track": 4,
+        "title": "Bigger Than You",
+        "album": "Bad Custer",
+        "src": "04-Bigger_Than_You"
+    },
+    {
+        "track": 5,
+        "title": "Andrea",
+        "album": "Bad Custer",
+        "src": "05-Andrea"
+    },
+    {
+        "track": 6,
+        "title": "I'm Sorry, But I Don't Forget",
+        "album": "Bad Custer",
+        "src": "06-Im_Sorry_But_I_Dont_Forget"
+    },
+    {
+        "track": 7,
+        "title": "Where Does She Go",
+        "album": "Bad Custer",
+        "src": "07-Where_Does_She_Go"
+    },
+    {
+        "track": 8,
+        "title": "Coconut",
+        "album": "Bad Custer",
+        "src": "08-Coconut"
+    },
+    {
+        "track": 9,
+        "title": "Everybody's Saying",
+        "album": "Bad Custer",
+        "src": "09-Everybodys_Saying"
+    },
+    {
+        "track": 1,
+        "title": "Radiation",
+        "album": "Radiation",
+        "src": "01-Radiation"
+    },
+    {
+        "track": 1,
+        "title": "LoveCraft",
+        "album": "LoveCraft",
+        "src": "01-LoveCraft"
+    }
+    
+]

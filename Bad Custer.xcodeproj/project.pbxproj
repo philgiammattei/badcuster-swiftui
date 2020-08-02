@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F03A5DE24D751A0006AD1D5 /* AlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03A5DD24D751A0006AD1D5 /* AlbumImage.swift */; };
+		2F1E7AE824C237F0007445F3 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E7AE724C237F0007445F3 /* Music.swift */; };
+		2F76BBCF24CE392500553634 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBCE24CE392500553634 /* SongList.swift */; };
+		2F76BBD224CE3B7500553634 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBD124CE3B7500553634 /* Extensions.swift */; };
+		2F76BBD624CE4B1500553634 /* albumlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F76BBD524CE4B1500553634 /* albumlist.json */; };
+		2F76BBD824CE4C1F00553634 /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F76BBD724CE4C1F00553634 /* songlist.json */; };
+		2F76BBDA24CE508D00553634 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBD924CE508D00553634 /* Song.swift */; };
+		2F76BBDC24CE50CA00553634 /* AllSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBDB24CE50CA00553634 /* AllSongList.swift */; };
+		2F76BBDE24CE50E200553634 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBDD24CE50E200553634 /* Album.swift */; };
+		2F76BBE024CE50F800553634 /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBDF24CE50F800553634 /* AlbumList.swift */; };
+		2F9DF88D24C511A100A84CF9 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9DF88C24C511A100A84CF9 /* NowPlaying.swift */; };
+		2F9DF8AF24C5189900A84CF9 /* 02-Im_Doing_Good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89124C5189800A84CF9 /* 02-Im_Doing_Good.mp3 */; };
+		2F9DF8B124C5189900A84CF9 /* 01-LoveCraft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89324C5189800A84CF9 /* 01-LoveCraft.mp3 */; };
+		2F9DF8B224C5189900A84CF9 /* 04-Bigger_Than_You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89424C5189800A84CF9 /* 04-Bigger_Than_You.mp3 */; };
+		2F9DF8B324C5189900A84CF9 /* 01-Radiation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89524C5189800A84CF9 /* 01-Radiation.mp3 */; };
+		2F9DF8B424C5189900A84CF9 /* 06-John_Woo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89624C5189800A84CF9 /* 06-John_Woo.mp3 */; };
+		2F9DF8B624C5189900A84CF9 /* 08-No_One_Knows.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89824C5189800A84CF9 /* 08-No_One_Knows.mp3 */; };
+		2F9DF8B724C5189900A84CF9 /* 08-Coconut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89924C5189800A84CF9 /* 08-Coconut.mp3 */; };
+		2F9DF8B824C5189900A84CF9 /* 03-Lies_of_the_Few.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89A24C5189800A84CF9 /* 03-Lies_of_the_Few.mp3 */; };
+		2F9DF8B924C5189900A84CF9 /* 05-Outlaw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89B24C5189800A84CF9 /* 05-Outlaw.mp3 */; };
+		2F9DF8BB24C5189900A84CF9 /* 07-Where_Does_She_Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89D24C5189800A84CF9 /* 07-Where_Does_She_Go.mp3 */; };
+		2F9DF8BD24C5189900A84CF9 /* 09-Everybodys_Saying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF89F24C5189800A84CF9 /* 09-Everybodys_Saying.mp3 */; };
+		2F9DF8BE24C5189900A84CF9 /* 01-Falalala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A024C5189800A84CF9 /* 01-Falalala.mp3 */; };
+		2F9DF8BF24C5189900A84CF9 /* 05-Andrea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A124C5189800A84CF9 /* 05-Andrea.mp3 */; };
+		2F9DF8C024C5189900A84CF9 /* 02-Tiny_Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A224C5189800A84CF9 /* 02-Tiny_Man.mp3 */; };
+		2F9DF8C124C5189900A84CF9 /* 03-Bones_Like_Lightning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A324C5189800A84CF9 /* 03-Bones_Like_Lightning.mp3 */; };
+		2F9DF8C324C5189900A84CF9 /* 07-Outside_of_Texas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A524C5189800A84CF9 /* 07-Outside_of_Texas.mp3 */; };
+		2F9DF8C524C5189900A84CF9 /* 04-I_Still_Love_You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8A724C5189900A84CF9 /* 04-I_Still_Love_You.mp3 */; };
+		2F9DF8C824C5189900A84CF9 /* im_a_horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AA24C5189900A84CF9 /* im_a_horse.wav */; };
+		2F9DF8C924C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AB24C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 */; };
+		2F9DF8CA24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AC24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 */; };
+		2F9DF8CC24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AE24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 */; };
 		2FD5B13724BD582F00B44CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13624BD582F00B44CDF /* AppDelegate.swift */; };
 		2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */; };
 		2FD5B13B24BD582F00B44CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13A24BD582F00B44CDF /* ContentView.swift */; };
@@ -15,6 +47,7 @@
 		2FD5B14324BD583000B44CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD5B14124BD583000B44CDF /* LaunchScreen.storyboard */; };
 		2FD5B14E24BD583000B44CDF /* Bad_CusterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B14D24BD583000B44CDF /* Bad_CusterTests.swift */; };
 		2FD5B15924BD583000B44CDF /* Bad_CusterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B15824BD583000B44CDF /* Bad_CusterUITests.swift */; };
+		2FD5B16724BD59CB00B44CDF /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B16624BD59CB00B44CDF /* AlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F03A5DD24D751A0006AD1D5 /* AlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImage.swift; sourceTree = "<group>"; };
+		2F1E7AE724C237F0007445F3 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2F76BBCE24CE392500553634 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		2F76BBD124CE3B7500553634 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2F76BBD524CE4B1500553634 /* albumlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = albumlist.json; sourceTree = "<group>"; };
+		2F76BBD724CE4C1F00553634 /* songlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songlist.json; sourceTree = "<group>"; };
+		2F76BBD924CE508D00553634 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		2F76BBDB24CE50CA00553634 /* AllSongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongList.swift; sourceTree = "<group>"; };
+		2F76BBDD24CE50E200553634 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		2F76BBDF24CE50F800553634 /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		2F9DF88C24C511A100A84CF9 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		2F9DF89124C5189800A84CF9 /* 02-Im_Doing_Good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "02-Im_Doing_Good.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/02-Im_Doing_Good.mp3"; sourceTree = "<group>"; };
+		2F9DF89324C5189800A84CF9 /* 01-LoveCraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-LoveCraft.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/01-LoveCraft.mp3"; sourceTree = "<group>"; };
+		2F9DF89424C5189800A84CF9 /* 04-Bigger_Than_You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "04-Bigger_Than_You.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/04-Bigger_Than_You.mp3"; sourceTree = "<group>"; };
+		2F9DF89524C5189800A84CF9 /* 01-Radiation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-Radiation.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/01-Radiation.mp3"; sourceTree = "<group>"; };
+		2F9DF89624C5189800A84CF9 /* 06-John_Woo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06-John_Woo.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/06-John_Woo.mp3"; sourceTree = "<group>"; };
+		2F9DF89824C5189800A84CF9 /* 08-No_One_Knows.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "08-No_One_Knows.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/08-No_One_Knows.mp3"; sourceTree = "<group>"; };
+		2F9DF89924C5189800A84CF9 /* 08-Coconut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "08-Coconut.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/08-Coconut.mp3"; sourceTree = "<group>"; };
+		2F9DF89A24C5189800A84CF9 /* 03-Lies_of_the_Few.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "03-Lies_of_the_Few.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/03-Lies_of_the_Few.mp3"; sourceTree = "<group>"; };
+		2F9DF89B24C5189800A84CF9 /* 05-Outlaw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "05-Outlaw.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/05-Outlaw.mp3"; sourceTree = "<group>"; };
+		2F9DF89D24C5189800A84CF9 /* 07-Where_Does_She_Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "07-Where_Does_She_Go.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/07-Where_Does_She_Go.mp3"; sourceTree = "<group>"; };
+		2F9DF89F24C5189800A84CF9 /* 09-Everybodys_Saying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "09-Everybodys_Saying.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/09-Everybodys_Saying.mp3"; sourceTree = "<group>"; };
+		2F9DF8A024C5189800A84CF9 /* 01-Falalala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-Falalala.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/01-Falalala.mp3"; sourceTree = "<group>"; };
+		2F9DF8A124C5189800A84CF9 /* 05-Andrea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "05-Andrea.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/05-Andrea.mp3"; sourceTree = "<group>"; };
+		2F9DF8A224C5189800A84CF9 /* 02-Tiny_Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "02-Tiny_Man.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/02-Tiny_Man.mp3"; sourceTree = "<group>"; };
+		2F9DF8A324C5189800A84CF9 /* 03-Bones_Like_Lightning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "03-Bones_Like_Lightning.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/03-Bones_Like_Lightning.mp3"; sourceTree = "<group>"; };
+		2F9DF8A524C5189800A84CF9 /* 07-Outside_of_Texas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "07-Outside_of_Texas.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/07-Outside_of_Texas.mp3"; sourceTree = "<group>"; };
+		2F9DF8A724C5189900A84CF9 /* 04-I_Still_Love_You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "04-I_Still_Love_You.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/04-I_Still_Love_You.mp3"; sourceTree = "<group>"; };
+		2F9DF8AA24C5189900A84CF9 /* im_a_horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = im_a_horse.wav; path = "../../../badcuster-reactnative/assets/images/songs/im_a_horse.wav"; sourceTree = "<group>"; };
+		2F9DF8AB24C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-We_Dont_Play_Rock_N_Roll.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/01-We_Dont_Play_Rock_N_Roll.mp3"; sourceTree = "<group>"; };
+		2F9DF8AC24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "09-The_Ballad_of_Jesus_Christ.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/09-The_Ballad_of_Jesus_Christ.mp3"; sourceTree = "<group>"; };
+		2F9DF8AE24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06-Im_Sorry_But_I_Dont_Forget.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/06-Im_Sorry_But_I_Dont_Forget.mp3"; sourceTree = "<group>"; };
 		2FD5B13324BD582F00B44CDF /* Bad Custer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Custer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD5B13624BD582F00B44CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +114,7 @@
 		2FD5B15424BD583000B44CDF /* Bad CusterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad CusterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD5B15824BD583000B44CDF /* Bad_CusterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_CusterUITests.swift; sourceTree = "<group>"; };
 		2FD5B15A24BD583000B44CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD5B16624BD59CB00B44CDF /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +142,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F76BBD024CE3B6400553634 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2F76BBD124CE3B7500553634 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2F9DF88B24C510CF00A84CF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5B13A24BD582F00B44CDF /* ContentView.swift */,
+				2F1E7AE724C237F0007445F3 /* Music.swift */,
+				2FD5B16624BD59CB00B44CDF /* AlbumView.swift */,
+				2F9DF88C24C511A100A84CF9 /* NowPlaying.swift */,
+				2F76BBCE24CE392500553634 /* SongList.swift */,
+				2F03A5DD24D751A0006AD1D5 /* AlbumImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9DF88E24C512F100A84CF9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2F9DF8A024C5189800A84CF9 /* 01-Falalala.mp3 */,
+				2F9DF89324C5189800A84CF9 /* 01-LoveCraft.mp3 */,
+				2F9DF89524C5189800A84CF9 /* 01-Radiation.mp3 */,
+				2F9DF8AB24C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 */,
+				2F9DF89124C5189800A84CF9 /* 02-Im_Doing_Good.mp3 */,
+				2F9DF8A224C5189800A84CF9 /* 02-Tiny_Man.mp3 */,
+				2F9DF8A324C5189800A84CF9 /* 03-Bones_Like_Lightning.mp3 */,
+				2F9DF89A24C5189800A84CF9 /* 03-Lies_of_the_Few.mp3 */,
+				2F9DF89424C5189800A84CF9 /* 04-Bigger_Than_You.mp3 */,
+				2F9DF8A724C5189900A84CF9 /* 04-I_Still_Love_You.mp3 */,
+				2F9DF8A124C5189800A84CF9 /* 05-Andrea.mp3 */,
+				2F9DF89B24C5189800A84CF9 /* 05-Outlaw.mp3 */,
+				2F9DF8AE24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 */,
+				2F9DF89624C5189800A84CF9 /* 06-John_Woo.mp3 */,
+				2F9DF8A524C5189800A84CF9 /* 07-Outside_of_Texas.mp3 */,
+				2F9DF89D24C5189800A84CF9 /* 07-Where_Does_She_Go.mp3 */,
+				2F9DF89924C5189800A84CF9 /* 08-Coconut.mp3 */,
+				2F9DF89824C5189800A84CF9 /* 08-No_One_Knows.mp3 */,
+				2F9DF89F24C5189800A84CF9 /* 09-Everybodys_Saying.mp3 */,
+				2F9DF8AC24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 */,
+				2F9DF8AA24C5189900A84CF9 /* im_a_horse.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		2F9DF8CD24C5193700A84CF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F76BBD524CE4B1500553634 /* albumlist.json */,
+				2F76BBD724CE4C1F00553634 /* songlist.json */,
+				2F76BBD924CE508D00553634 /* Song.swift */,
+				2F76BBDB24CE50CA00553634 /* AllSongList.swift */,
+				2F76BBDD24CE50E200553634 /* Album.swift */,
+				2F76BBDF24CE50F800553634 /* AlbumList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2FD5B12A24BD582F00B44CDF = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +227,12 @@
 		2FD5B13524BD582F00B44CDF /* Bad Custer */ = {
 			isa = PBXGroup;
 			children = (
+				2F76BBD024CE3B6400553634 /* Utilities */,
+				2F9DF8CD24C5193700A84CF9 /* Model */,
+				2F9DF88E24C512F100A84CF9 /* Music */,
+				2F9DF88B24C510CF00A84CF9 /* View */,
 				2FD5B13624BD582F00B44CDF /* AppDelegate.swift */,
 				2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */,
-				2FD5B13A24BD582F00B44CDF /* ContentView.swift */,
 				2FD5B13C24BD583000B44CDF /* Assets.xcassets */,
 				2FD5B14124BD583000B44CDF /* LaunchScreen.storyboard */,
 				2FD5B14424BD583000B44CDF /* Info.plist */,
@@ -240,9 +371,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9DF8B724C5189900A84CF9 /* 08-Coconut.mp3 in Resources */,
+				2F9DF8C124C5189900A84CF9 /* 03-Bones_Like_Lightning.mp3 in Resources */,
 				2FD5B14324BD583000B44CDF /* LaunchScreen.storyboard in Resources */,
+				2F9DF8BB24C5189900A84CF9 /* 07-Where_Does_She_Go.mp3 in Resources */,
 				2FD5B14024BD583000B44CDF /* Preview Assets.xcassets in Resources */,
 				2FD5B13D24BD583000B44CDF /* Assets.xcassets in Resources */,
+				2F9DF8B124C5189900A84CF9 /* 01-LoveCraft.mp3 in Resources */,
+				2F9DF8B624C5189900A84CF9 /* 08-No_One_Knows.mp3 in Resources */,
+				2F9DF8C024C5189900A84CF9 /* 02-Tiny_Man.mp3 in Resources */,
+				2F9DF8C324C5189900A84CF9 /* 07-Outside_of_Texas.mp3 in Resources */,
+				2F9DF8B424C5189900A84CF9 /* 06-John_Woo.mp3 in Resources */,
+				2F9DF8BF24C5189900A84CF9 /* 05-Andrea.mp3 in Resources */,
+				2F76BBD624CE4B1500553634 /* albumlist.json in Resources */,
+				2F9DF8BD24C5189900A84CF9 /* 09-Everybodys_Saying.mp3 in Resources */,
+				2F9DF8B224C5189900A84CF9 /* 04-Bigger_Than_You.mp3 in Resources */,
+				2F9DF8AF24C5189900A84CF9 /* 02-Im_Doing_Good.mp3 in Resources */,
+				2F9DF8CC24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 in Resources */,
+				2F9DF8CA24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 in Resources */,
+				2F76BBD824CE4C1F00553634 /* songlist.json in Resources */,
+				2F9DF8C924C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 in Resources */,
+				2F9DF8B924C5189900A84CF9 /* 05-Outlaw.mp3 in Resources */,
+				2F9DF8B824C5189900A84CF9 /* 03-Lies_of_the_Few.mp3 in Resources */,
+				2F9DF8C524C5189900A84CF9 /* 04-I_Still_Love_You.mp3 in Resources */,
+				2F9DF8B324C5189900A84CF9 /* 01-Radiation.mp3 in Resources */,
+				2F9DF8C824C5189900A84CF9 /* im_a_horse.wav in Resources */,
+				2F9DF8BE24C5189900A84CF9 /* 01-Falalala.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +421,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F76BBDA24CE508D00553634 /* Song.swift in Sources */,
+				2F1E7AE824C237F0007445F3 /* Music.swift in Sources */,
 				2FD5B13724BD582F00B44CDF /* AppDelegate.swift in Sources */,
+				2F76BBE024CE50F800553634 /* AlbumList.swift in Sources */,
+				2F76BBCF24CE392500553634 /* SongList.swift in Sources */,
+				2F03A5DE24D751A0006AD1D5 /* AlbumImage.swift in Sources */,
+				2F76BBDC24CE50CA00553634 /* AllSongList.swift in Sources */,
+				2F76BBD224CE3B7500553634 /* Extensions.swift in Sources */,
 				2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */,
+				2FD5B16724BD59CB00B44CDF /* AlbumView.swift in Sources */,
+				2F76BBDE24CE50E200553634 /* Album.swift in Sources */,
 				2FD5B13B24BD582F00B44CDF /* ContentView.swift in Sources */,
+				2F9DF88D24C511A100A84CF9 /* NowPlaying.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
