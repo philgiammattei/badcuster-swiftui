@@ -106,6 +106,9 @@ struct NowPlaying: View {
         return ZStack {
             Color(red: 0.68, green: 0.22, blue: 0.22)
             VStack {
+                Rectangle()
+                    .fill(Color(red: 0.5, green: 0.5, blue: 0.5))
+                    .frame(width: 50, height: 10)
                 AlbumView(album: album)
                 Text(currentSong.title)
                     .font(.headline)

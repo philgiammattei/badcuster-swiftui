@@ -27,7 +27,8 @@ struct SongList: View {
     
     var body: some View {
         VStack {
-            AlbumView(album: currentAlbum)
+            AlbumImage(imageName: currentAlbum.cover)
+                .padding()
             List {
                 ForEach(currentSongList) { song in
                     NavigationLink(destination: NowPlaying(album: self.currentAlbum)) {

@@ -9,8 +9,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showingNowPlaying = false
+    
     var body: some View {
-        Music()
+        TabView {
+            Music()
+                .tabItem {
+                    Image(systemName: "music.note.list")
+                    Text("Music")
+            }
+            Text("Social Media")
+                .tabItem {
+                    Image(systemName: "at.badge.plus")
+                    Text("Social")
+            }
+            Button(action: {
+                self.showingNowPlaying.toggle()
+            }) {
+                Text("Show Now Playing")
+            }
+                .tabItem {
+                    Image(systemName: "info.circle")
+                    Text("About")
+            }
+            Text("Contact")
+                .tabItem {
+                    Image(systemName: "cart")
+                    Text("Store")
+            }
+        }
+        .sheet(isPresented: $showingNowPlaying) {
+            NowPlaying(album: AlbumList().albums[0])
+        }
     }
 }
 

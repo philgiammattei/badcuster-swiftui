@@ -39,6 +39,7 @@
 		2F9DF8C924C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AB24C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 */; };
 		2F9DF8CA24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AC24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 */; };
 		2F9DF8CC24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DF8AE24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 */; };
+		2FA409F224D78EB700D80596 /* NowPlayingSheetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA409F124D78EB700D80596 /* NowPlayingSheetTest.swift */; };
 		2FD5B13724BD582F00B44CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13624BD582F00B44CDF /* AppDelegate.swift */; };
 		2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */; };
 		2FD5B13B24BD582F00B44CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5B13A24BD582F00B44CDF /* ContentView.swift */; };
@@ -100,6 +101,7 @@
 		2F9DF8AB24C5189900A84CF9 /* 01-We_Dont_Play_Rock_N_Roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-We_Dont_Play_Rock_N_Roll.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/01-We_Dont_Play_Rock_N_Roll.mp3"; sourceTree = "<group>"; };
 		2F9DF8AC24C5189900A84CF9 /* 09-The_Ballad_of_Jesus_Christ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "09-The_Ballad_of_Jesus_Christ.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/09-The_Ballad_of_Jesus_Christ.mp3"; sourceTree = "<group>"; };
 		2F9DF8AE24C5189900A84CF9 /* 06-Im_Sorry_But_I_Dont_Forget.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06-Im_Sorry_But_I_Dont_Forget.mp3"; path = "../../../badcuster-reactnative/assets/images/songs/06-Im_Sorry_But_I_Dont_Forget.mp3"; sourceTree = "<group>"; };
+		2FA409F124D78EB700D80596 /* NowPlayingSheetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingSheetTest.swift; sourceTree = "<group>"; };
 		2FD5B13324BD582F00B44CDF /* Bad Custer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Custer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD5B13624BD582F00B44CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD5B13824BD582F00B44CDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				2F9DF88C24C511A100A84CF9 /* NowPlaying.swift */,
 				2F76BBCE24CE392500553634 /* SongList.swift */,
 				2F03A5DD24D751A0006AD1D5 /* AlbumImage.swift */,
+				2FA409F124D78EB700D80596 /* NowPlayingSheetTest.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				2F76BBCF24CE392500553634 /* SongList.swift in Sources */,
 				2F03A5DE24D751A0006AD1D5 /* AlbumImage.swift in Sources */,
 				2F76BBDC24CE50CA00553634 /* AllSongList.swift in Sources */,
+				2FA409F224D78EB700D80596 /* NowPlayingSheetTest.swift in Sources */,
 				2F76BBD224CE3B7500553634 /* Extensions.swift in Sources */,
 				2FD5B13924BD582F00B44CDF /* SceneDelegate.swift in Sources */,
 				2FD5B16724BD59CB00B44CDF /* AlbumView.swift in Sources */,
